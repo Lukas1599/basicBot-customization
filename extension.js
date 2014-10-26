@@ -84,7 +84,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Mensagem Temporária do Dia",
+        motd: "O Brasil quando sonha sacode Washington;quando se move desloca o Continente;e quando acordar abalará o mundo.",
         filterChat: false,
         etaRestriction: false,
         welcome: true,
