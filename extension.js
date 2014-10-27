@@ -56,7 +56,7 @@
         botName: "BrasIleIríssImosBOT",
         language: "portuguese",
         chatLink: "https://rawgit.com/diegodepira/basicBot/master/lang/pt.json",
-        maximumAfk: 60,
+        maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: false,
@@ -95,7 +95,7 @@
         youtubeLink: null,
         website: null,
         intervalMessages: [],
-        messageInterval: 5,
+        messageInterval: 10,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
