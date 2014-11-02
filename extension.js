@@ -91,7 +91,7 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: "http://goo.gl/8BHN69" ,
+        fbLink: http:"http://goo.gl/QbfSdD" ,
         youtubeLink: null,
         website: null,
         intervalMessages: [],
