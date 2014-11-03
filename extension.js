@@ -53,18 +53,18 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "...",
+        botName: "basicBot",
         language: "portuguese",
         chatLink: "https://rawgit.com/diegodepira/basicBot/master/lang/pt.json",
-        maximumAfk: 60,
+        maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: false,
         lockdownEnabled: false,
-        lockGuard: true,
-        maximumLocktime: 8,
+        lockGuard: false,
+        maximumLocktime: 10,
         cycleGuard: true,
-        maximumCycletime: 8,
+        maximumCycletime: 10,
         timeGuard: true,
         maximumSongLength: 8,
         autodisable: false,
@@ -80,11 +80,11 @@
             ["nsfw", "O vídeo que você tocou continha NSFW (imagem ou som). "],
             ["unavailable", "O vídeo que você tocou não estava disponível para alguns usuários. "]
         ],
-        afkpositionCheck: 1,
+        afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "O Brasil quando sonha sacode Washington;quando se move desloca o Continente;e quando acordar abalará o mundo.",
+        motd: "Mensagem Temporária do Dia",
         filterChat: false,
         etaRestriction: false,
         welcome: true,
@@ -95,16 +95,16 @@
         youtubeLink: null,
         website: null,
         intervalMessages: [],
-        messageInterval: 10,
-        songstats: true,
+        messageInterval: 5,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
-        }
-    }));
+         }
+    }}));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript( "javascript:(function(){$.getScript('https://rawgit.com/Lukas1599/basicBot-customization/master/extension.js');})();", extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
 
 }).call(this);
