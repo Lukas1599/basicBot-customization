@@ -56,7 +56,7 @@
         botName: "basicBot",
         language: "portuguese",
         chatLink: "https://rawgit.com/diegodepira/basicBot/master/lang/pt.json",
-        maximumAfk: 120,
+        maximumAfk: 60,
         afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: false,
@@ -70,7 +70,7 @@
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 1,
         lockskipReasons: [
             ["theme", "Este vídeo não está de acordo com os temas da sala. "],
             ["op", "Este vídeo está na lista dos mais tocados. "],
