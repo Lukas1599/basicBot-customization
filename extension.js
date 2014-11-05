@@ -80,10 +80,10 @@
             ["nsfw", "O vídeo que você tocou continha NSFW (imagem ou som). "],
             ["unavailable", "O vídeo que você tocou não estava disponível para alguns usuários. "]
         ],
-        afkpositionCheck: 15,
+        afkpositionCheck: 1,
         afkRankCheck: "ambassador",
         motdEnabled: false,
-        motdInterval: 5,
+        motdInterval: 1,
         motd: "Mensagem Temporária do Dia",
         filterChat: false,
         etaRestriction: false,
