@@ -81,7 +81,7 @@
             ["unavailable", "O vídeo que você tocou não estava disponível para alguns usuários. "]
         ],
         afkpositionCheck: 1,
-        afkRankCheck: "ambassador",
+        afkRankCheck: "Manager",
         motdEnabled: false,
         motdInterval: 1,
         motd: "Mensagem Temporária do Dia",
