@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "BrasileiríssimosBOT",
         language: "portuguese",
         chatLink: "https://rawgit.com/diegodepira/basicBot/master/lang/pt.json",
         maximumAfk: 60,
@@ -81,7 +81,7 @@
             ["unavailable", "O vídeo que você tocou não estava disponível para alguns usuários. "]
         ],
         afkpositionCheck: 1,
-        afkRankCheck: "Manager",
+        afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 1,
         motd: "Mensagem Temporária do Dia",
